@@ -45,8 +45,7 @@ export const ENDPOINTS: Array<Endpoint> = [
   {
     name: 'mainnet-beta',
     label: 'mainnet-beta',
-    url: 'https://sparkling-muddy-voice.solana-mainnet.quiknode.pro/823c790fc28ec6480ef1f26ae57abe07fa39e982/',
-    // url: 'https://api.metaplex.solana.com/',
+    url: 'https://api.metaplex.solana.com/',
     chainId: ChainId.MainnetBeta,
   },
   {
