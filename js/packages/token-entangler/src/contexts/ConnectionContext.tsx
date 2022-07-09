@@ -103,7 +103,8 @@ export type ENV = 'mainnet-beta' | 'testnet' | 'devnet' | 'localnet';
 export const ENDPOINTS = [
   {
     name: 'mainnet-beta' as ENV,
-    endpoint: 'https://api.metaplex.solana.com/',
+    // endpoint: 'https://api.metaplex.solana.com/',
+    endpoint: 'https://sparkling-muddy-voice.solana-mainnet.quiknode.pro/823c790fc28ec6480ef1f26ae57abe07fa39e982/',
     ChainId: ChainId.MainnetBeta,
   },
   {
