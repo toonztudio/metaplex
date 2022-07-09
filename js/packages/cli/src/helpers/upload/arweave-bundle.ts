@@ -501,8 +501,8 @@ export async function* makeArweaveBundleUploadGenerator(
             walletKeyPair.secretKey,
             {
               timeout: 60000,
-              providerUrl: rpcUrl ?? 'https://damp-weathered-bush.solana-mainnet.quiknode.pro/f89452ab53d77798fb782a9f4af180cf9500ac0a/',
-              // providerUrl: rpcUrl ?? 'https://api.metaplex.solana.com',
+              // providerUrl: rpcUrl ?? 'https://damp-weathered-bush.solana-mainnet.quiknode.pro/f89452ab53d77798fb782a9f4af180cf9500ac0a/',
+              providerUrl: rpcUrl ?? 'https://api.metaplex.solana.com',
             },
           )
         : new Bundlr(
