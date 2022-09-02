@@ -121,8 +121,8 @@ type Cluster = {
 export const CLUSTERS: Cluster[] = [
   {
     name: 'mainnet-beta',
-    // url: 'https://damp-weathered-bush.solana-mainnet.quiknode.pro/f89452ab53d77798fb782a9f4af180cf9500ac0a/',
-    url: 'https://api.metaplex.solana.com/',
+    url: 'https://frosty-clean-dust.solana-mainnet.quiknode.pro/3f9b1a529ddfc122fefdd55c05bd2ee4abf3fb3e/',
+    // url: 'https://api.metaplex.solana.com/',
   },
   {
     name: 'testnet',
